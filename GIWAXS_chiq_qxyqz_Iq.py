@@ -49,7 +49,7 @@ def crop_qxyqz(intensity, qxy, qz, qxyrange=[-10.,10.], qzrange=[0.,30.]):
 
 
 
-ponifile = './LaB6_1s_2_11121816_0001_2.poni'
+ponifile = './poni.poni'
 parentdir = './'
 resultdir = os.path.join(parentdir, 'results')
 qbins = 1000
