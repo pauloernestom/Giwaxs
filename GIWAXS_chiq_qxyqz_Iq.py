@@ -178,6 +178,6 @@ for tif, i in zip(tifs, list(range(len(tifs)))):
 	
 
 
-# np.savetxt(os.path.join(parentdir, 'Iq.csv'), r, delimiter = ",", fmt = "%s")
+np.savetxt(os.path.join(parentdir, 'Iq.csv'), r, delimiter = ",", fmt = "%s")
 
 
