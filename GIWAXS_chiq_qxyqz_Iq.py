@@ -153,7 +153,7 @@ for tif, i in zip(tifs, list(range(len(tifs)))):
 	plot2 = axarr[0].imshow(maskIntensity, extent = [q.min(), q.max(), chi.min(), chi.max()], aspect = "auto", cmap='inferno', origin='lower', interpolation='none')
 	axarr[0].set_title(os.path.basename(tif))
 	axarr[0].set_xlabel('q [1/nm]', size=24)
-	axarr[0].set_ylabel('q [1/nm]', size=24)
+	axarr[0].set_ylabel('chi [degree]', size=24)
 	axarr[0].tick_params(direction='in', which='major', length=7, labelsize=20)
 	
 	cbar_coord2 = replace_at_index1(make_axes_locatable(axarr[0]).get_position(), [0,2], [0.92,0.02])
